@@ -29,7 +29,7 @@ Para começar a usar o sistema, você precisa clonar o repositório para a sua m
 3. Entre na pasta do projeto e instale as dependências necessárias:
    ```bash
    cd APP-Sistema-Login-Registro-Firebase
-   flutter pub get
+
    ```
      ```bash
 
