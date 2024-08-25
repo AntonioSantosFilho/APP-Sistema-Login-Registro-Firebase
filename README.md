@@ -14,8 +14,8 @@ Um sistema de login e registro em Flutter integrado ao Firebase, usando Firebase
 
 ## 🖼️ Imagens do projeto (UI)
 
-| ![Logo](https://raw.githubusercontent.com/AntonioSantosFilho/Projeto-Computacao-Grafica/main/capa_repo.png) | ![Screen2](url-to-second-image) | ![Screen3](url-to-third-image) |
-|:---:|:---:|:---:|
+ | ![Screen2](https://github.com/AntonioSantosFilho/APP-Sistema-Login-Registro-Firebase/blob/main/readme-assets/login.png) | ![Screen4](https://raw.githubusercontent.com/AntonioSantosFilho/APP-Sistema-Login-Registro-Firebase/main/readme-assets/registro.png) | ![Screen3](https://raw.githubusercontent.com/AntonioSantosFilho/APP-Sistema-Login-Registro-Firebase/main/readme-assets/registro-texto.png) | ![Logo](https://raw.githubusercontent.com/AntonioSantosFilho/APP-Sistema-Login-Registro-Firebase/main/readme-assets/logado.png)|
+|:---:|:---:|:---:|:---:|
 
 ## 📥 Como clonar o repositório
 
@@ -29,6 +29,10 @@ Para começar a usar o sistema, você precisa clonar o repositório para a sua m
 3. Entre na pasta do projeto e instale as dependências necessárias:
    ```bash
    cd APP-Sistema-Login-Registro-Firebase
+   flutter pub get
+   ```
+     ```bash
+
    flutter pub get
    ```
 
