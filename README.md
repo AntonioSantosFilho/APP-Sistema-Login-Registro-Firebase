@@ -8,30 +8,31 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-## Sobre o projeto
+## 📖 Sobre o projeto
 
-Descreva aqui o objetivo do seu sistema de login simples em Flutter, quais problemas ele resolve e qualquer outra informação relevante sobre o que o sistema faz.
+Um sistema de login e registro em Flutter integrado ao Firebase, usando Firebase Authentication para autenticação segura e Cloud Firestore para armazenar dados do usuário, como nome e email.
 
-## Como clonar o repositório
+## 🖼️ Imagens do projeto (UI)
 
-Para começar a usar o sistema de login simples, você precisa clonar o repositório para a sua máquina local. Siga os passos abaixo para fazer isso:
+| ![Logo](https://raw.githubusercontent.com/AntonioSantosFilho/Projeto-Computacao-Grafica/main/capa_repo.png) | ![Screen2](url-to-second-image) | ![Screen3](url-to-third-image) |
+|:---:|:---:|:---:|
+
+## 📥 Como clonar o repositório
+
+Para começar a usar o sistema, você precisa clonar o repositório para a sua máquina local. Siga os passos abaixo para fazer isso:
 
 1. Abra o terminal.
 2. Clone o repositório utilizando o comando:
    ```bash
-   git clone [URL-do-seu-repositório]
+   git clone https://github.com/AntonioSantosFilho/APP-Sistema-Login-Registro-Firebase
    ```
-   Substitua `[URL-do-seu-repositório]` pela URL do seu repositório no GitHub.
-3. Entre na pasta do projeto:
+3. Entre na pasta do projeto e instale as dependências necessárias:
    ```bash
-   cd nome-da-pasta
-   ```
-4. Instale as dependências necessárias:
-   ```bash
+   cd APP-Sistema-Login-Registro-Firebase
    flutter pub get
    ```
 
-## Configuração do Firebase
+## 🔥 Configuração do Firebase
 
 Para conectar o seu sistema de login ao Firebase, siga estas etapas:
 
@@ -40,29 +41,21 @@ Para conectar o seu sistema de login ao Firebase, siga estas etapas:
 
 2. **Adicione o Firebase ao seu app Flutter:**
    - No Firebase Console, clique em "Adicionar app" e selecione o ícone do Flutter.
-   - Siga as instruções fornecidas para registrar seu app e baixe o arquivo `google-services.json`.
-   - Coloque este arquivo na pasta `android/app` do seu projeto Flutter.
+   - Siga as instruções fornecidas para registrar seu app.
 
 3. **Configure as dependências do Firebase no Flutter:**
-   - Adicione as dependências do Firebase ao seu arquivo `pubspec.yaml`:
-     ```yaml
-     dependencies:
-       firebase_core: ^latest_version
-       firebase_auth: ^latest_version
-     ```
-   - Rode `flutter pub get` para instalar as novas dependências.
+   - Verifique se as dependências do Firebase estão atualizadas no seu `pubspec.yaml`.
 
-4. **Inicialize o Firebase no seu aplicativo Flutter:**
-   - Modifique o arquivo `main.dart` para inicializar o Firebase antes de rodar o app:
-     ```dart
-     void main() async {
-       WidgetsFlutterBinding.ensureInitialized();
-       await Firebase.initializeApp();
-       runApp(MyApp());
-     }
-     ```
+## 📦 Bibliotecas utilizadas
 
-## Como executar o projeto
+- cupertino_icons
+- firebase_auth
+- firebase_core
+- cupertino_onboarding
+- cloud_firestore
+- intl_phone_field
+
+## ▶️ Como executar o projeto
 
 Para executar o projeto, utilize o seguinte comando no terminal dentro da pasta do projeto:
 
