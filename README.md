@@ -55,7 +55,6 @@ Para conectar o seu sistema de login ao Firebase, siga estas etapas:
 - cupertino_icons
 - firebase_auth
 - firebase_core
-- cupertino_onboarding
 - cloud_firestore
 - intl_phone_field
 
